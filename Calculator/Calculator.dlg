@@ -1,0 +1,45 @@
+/*---------------------------
+   Calculator.DLG 对话框类资源脚本
+	, 400, 0, 0x86
+  ---------------------------*/
+
+计算器 DIALOGEX -1, -1, 170, 210
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
+CAPTION "计算器 - (c)宋保明, 2014"
+CLASS "计算器"
+FONT 10, "宋体"
+{
+    RTEXT           "0.",  11,  12,  12,146, 25, SS_CENTERIMAGE | NOT WS_GROUP,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    PUSHBUTTON      "0",   48,  12, 182, 56, 18
+    PUSHBUTTON      "1",   49,  12, 156, 26, 18
+    PUSHBUTTON      "4",   52,  12, 130, 26, 18
+    PUSHBUTTON      "7",   55,  12, 104, 26, 18
+    PUSHBUTTON      "F",  102,  12,  78, 26, 18, WS_DISABLED
+    PUSHBUTTON      "A",   97,  12,  52, 26, 18, WS_DISABLED
+
+    PUSHBUTTON      "2",   50,  42, 156, 26, 18
+    PUSHBUTTON      "5",   53,  42, 130, 26, 18
+    PUSHBUTTON      "8",   56,  42, 104, 26, 18
+    PUSHBUTTON      "(",   40,  42,  78, 26, 18
+    PUSHBUTTON      "B",   98,  42,  52, 26, 18, WS_DISABLED
+
+    PUSHBUTTON      ".",   46,  72, 182, 26, 18
+    PUSHBUTTON      "3",   51,  72, 156, 26, 18
+    PUSHBUTTON      "6",   54,  72, 130, 26, 18
+    PUSHBUTTON      "9",   57,  72, 104, 26, 18
+    PUSHBUTTON      ")",   41,  72,  78, 26, 18
+    PUSHBUTTON      "C",   99,  72,  52, 26, 18, WS_DISABLED
+
+    PUSHBUTTON      "+",   43, 102, 182, 26, 18
+    PUSHBUTTON      "-",   45, 102, 156, 26, 18
+    PUSHBUTTON      "*",   42, 102, 130, 26, 18
+    PUSHBUTTON      "/",   47, 102, 104, 26, 18
+    PUSHBUTTON      "±",  10, 102,  78, 26, 18, WS_DISABLED
+    PUSHBUTTON      "D",  100, 102,  52, 26, 18, WS_DISABLED
+
+    PUSHBUTTON      "=",   13, 132, 156, 26, 44
+    PUSHBUTTON      "^",   94, 132, 104, 26, 18
+    PUSHBUTTON      "%",   37, 132, 130, 26, 18
+    PUSHBUTTON      "←",   8, 132,  78, 26, 18
+    PUSHBUTTON      "E",  101, 132,  52, 26, 18, WS_DISABLED
+}
